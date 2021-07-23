@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Scenarios feature file" verbose="1" parallel="methods"
+       thread-count="20">
+
+    <listeners>
+        <listener class-name="Helpers.TestAllureListener" />
+    </listeners>
+
+    <test name="Put your test suite name here int testng.xml">
+        <classes>
+            <class name="parallel.RunCucumberTest" />
+        </classes>
+    </test>
+</suite>
